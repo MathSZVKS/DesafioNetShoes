@@ -1,0 +1,33 @@
+.routeBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0px;
+  background-color: white;
+  border-bottom: 1px solid rgb(172, 172, 172);
+  width: 95%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.routes {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.routeLink {
+  text-decoration: none;
+  color: #707070;
+}
+
+.routeLink.active {
+  font-weight: bold;
+  color: #5e2ebc;
+}
+
+.routeSeparator {
+  color: #999;
+  margin: 0 5px;
+}

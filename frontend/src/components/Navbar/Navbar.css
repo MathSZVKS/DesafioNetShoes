@@ -1,0 +1,85 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #8200ff;
+  color: white;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+}
+
+.navbarLogo {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.navbarLinks {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.navbarLink {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 200ms linear;
+}
+
+.navbarLink:hover {
+  color: #d6abff;
+  transition: 200ms linear;
+}
+
+.userIconWrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.userIcon {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  color: #8200ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+
+.dropdownMenu {
+  min-width: 150px;
+  text-align: left;
+  position: absolute;
+  top: 36px;
+  right: 0;
+  background-color: white;
+  color: #333;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px 5px 5px;
+  z-index: 1000;
+  overflow: auto;
+}
+
+.dropdownMenu a {
+  padding: 6px 16px 6px 16px;
+  text-decoration: none;
+  color: #5c5c5c;
+  font-weight: bold;
+  transition: 200ms linear;
+}
+
+.dropdownMenu a:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  transition: 200ms linear;
+}
