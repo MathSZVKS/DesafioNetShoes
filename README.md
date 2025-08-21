@@ -10,6 +10,7 @@
 -> React-router-dom (Para rotas);
 -> React-icons (Biblioteca de Icones);
 -> Jest (Testes unitários);
+-> Babel (Para conversasão do Jest com arquivos JSX);
 
 ** -- PARA COMPILAÇÃO -- **
 -> Para rodar o Backend execute 'node index.js' dentro da pasta 'backend';
